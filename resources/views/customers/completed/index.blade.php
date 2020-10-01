@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
 <div class="context-sidebar">
     <div class="nav-sidebar">
     <ul class="sidebar-top-level-items">
@@ -132,3 +133,4 @@
     </div>
 </div>
 @endsection
+
