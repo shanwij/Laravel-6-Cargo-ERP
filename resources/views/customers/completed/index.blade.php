@@ -1,6 +1,57 @@
 @extends('layouts.app')
 
 @section('content')
+<div class="context-sidebar">
+    <div class="nav-sidebar">
+    <ul class="sidebar-top-level-items">
+
+<li class="">
+    <a href="{{ route('customers.opportunities.index') }}">
+        <div class="nav-icon-container">
+            <i class="fa fa-home"></i>
+        </div>
+        <span class="nav-item-name">Opportunities</span>
+    </a>
+</li>
+
+<li class="">
+    <a href="{{ route('customers.leads.index') }}">
+        <div class="nav-icon-container">
+            <i class="fa fa-moon-o"></i>
+        </div>
+        <span class="nav-item-name">Leads</span>
+    </a>
+</li>
+
+<li class="">
+    <a href="{{ route('customers.won.index') }}">
+        <div class="nav-icon-container">
+            <i class="fa fa-flask"></i>
+        </div>
+        <span class="nav-item-name">Customers</span>
+    </a>
+</li>
+
+<li class="">
+    <a href="{{ route('customers.tasks.index') }}">
+        <div class="nav-icon-container">
+            <i class="fa fa-flask"></i>
+        </div>
+        <span class="nav-item-name">Tasks</span>
+    </a>
+</li>
+
+<li class="">
+    <a href="{{ route('customers.completed.index') }}">
+        <div class="nav-icon-container">
+            <i class="fa fa-flask"></i>
+        </div>
+        <span class="nav-item-name">Completed Tasks</span>
+    </a>
+</li>
+
+</ul>
+    </div>
 
 
     <div class="content-wrapper">
